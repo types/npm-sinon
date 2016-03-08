@@ -428,6 +428,6 @@ declare module Sinon {
     }
 }
 
-declare var sinon: Sinon.SinonStatic;
+declare var Sinon: Sinon.SinonStatic;
 
-export = sinon;
+export = Sinon;
