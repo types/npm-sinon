@@ -73,6 +73,7 @@ declare module Sinon {
         alwaysReturned(): boolean;
         invokeCallback(...args: any[]): void;
         getCall(n: number): SinonSpyCall;
+        getCalls(): SinonSpyCall[];
         reset(): void;
         printf(format: string, ...args: any[]): string;
         restore(): void;
